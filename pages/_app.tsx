@@ -1,6 +1,8 @@
-import Head from 'next/head';
+import Head from 'next/head'
 import type { AppProps } from 'next/app'
-import '../styles.css';
+import 'antd/dist/antd.css'
+import '../styles.css'
+import '../i18n.ts'
 
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
@@ -13,6 +15,6 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
     </Head>
     <Component {...pageProps} />
   </>
-);
+)
 
-export default MyApp;
+export default MyApp
