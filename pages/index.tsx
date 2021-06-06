@@ -1,7 +1,5 @@
-const HomePage = () => {
-  return (
-    <div>initial setup</div>
-  )
-}
+const HomePage = () => (
+  <div>initial setup</div>
+)
 
 export default HomePage
